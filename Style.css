@@ -50,24 +50,34 @@ header {
 main {
 
     background: white;
-    margin-top: 83px;
+    margin-top: 150px;
 
-    height: 720px;
+    height: 1200px;
     width: 100%;
-}
-
-.banner {
     display: flex;
-    width: 80%;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
+.banner {
+    margin-top: 150px;
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: baseline;
+}
+
 .info-banner {
-padding: 50px;
+    margin-top: 150px;
+    padding: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 
+}
+.imagen-banner{
+    margin-top: 150px;
 }
 
 .titulo-banner {
@@ -95,20 +105,139 @@ padding: 50px;
     text-align: center;
 
 }
-.parrafo2{
+
+.parrafo2 {
     display: flex;
     justify-content: center;
     padding: 100px;
     font-size: large;
     text-align: center;
 
-    }
-    
-    
+}
+
+
 .banner p {
     color: black;
-    
+
 }
+
 .banner h1 {
     color: black;
 }
+
+.titulo-caja {
+
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.subtitulo-caja {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-cajas {
+    padding: 100px 0px;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contenedor-cajas img {
+    height: 200px;
+}
+
+.caja1 {
+    padding: 0px 20px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caja2 {
+    padding: 0px 20px;
+
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caja3 {
+    padding: 0px 20px;
+
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor-cajas p {
+    padding: 15px 0px;
+    text-align: center;
+}
+.contacto {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.datos-contacto{
+    display: flex;
+    align-items: center;
+justify-content: flex-start;
+flex-direction: column;
+}
+
+.titulo-contacto {
+    padding-bottom: 70px;
+
+}
+
+.titulo-wilde{
+padding-bottom: 20px;
+
+}
+.titulo-contacto-2 {
+    padding-bottom: 70px;
+
+}
+.titulo-bernal{
+    padding-bottom: 20px;
+    
+    }
+
+    
+    .twitter{
+        width: 50px;
+        height: 50px;
+    }
+    .facebook{
+        width: 50px;
+        height: 50px;
+    }
+    .instagram{
+        width: 50px;
+        height: 50px;
+    }
+    .imagen-footer{
+        width: 50px;
+        height: 50px;
+    }
+
+    footer{
+        background: grey;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
